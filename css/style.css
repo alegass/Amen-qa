@@ -15,6 +15,9 @@
 .containerExpander div {
   width:100%;
 }
+.greenIcon{
+  color:#25D366;
+}
 .containerExpander .headerExpander {
   padding: 2px;
   cursor: pointer;
@@ -41,7 +44,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #FF0000;
   outline: none;
   text-decoration: none;
 }
