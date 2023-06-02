@@ -251,8 +251,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #intro .carousel-background img {
@@ -1151,6 +1150,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #FF0000;
 }
 
+
+/*Carousel Convenios*/
+
+#conveniosCarousel {
+  padding: 60px 0;
+}
+
+#conveniosCarousel img {
+  max-width: 100%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#conveniosCarousel img:hover {
+  opacity: 1;
+}
+
+#conveniosCarousel .owl-nav,
+#conveniosCarousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#conveniosCarousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#conveniosCarousel .owl-dot.active {
+  background-color: #FF0000;
+}
 /* Testimonials Section
 --------------------------------*/
 
