@@ -9,6 +9,29 @@
       });
     }
   });
+  //Expandir contenido presionando los íconos en Expanders.
+  $(".clickExpanderKinesio").click("click", function(){
+    $("#kineExpander").click();
+  });
+
+  $(".clickExpanderFarmacia").click("click", function(){
+    $("#farmaciaExpander").click();
+  });
+  $(".clickCentroMedicoExpander").click("click", function(){
+    $("#centroMedicoExpander").click();
+  });
+  $(".clickEnfermeriaExpander").click("click", function(){
+    $("#enfermeriaExpander").click();
+  });
+  $(".clickOpticaExpander").click("click", function(){
+    $("#opticaExpander").click();
+  });
+  $(".clickSaludMentalExpander").click("click", function(){
+    $("#saludMentalExpander").click();
+  });
+  $(".clickConsultorioMedicoExpander").click("click", function(){
+    $("#consultorioMedicoExpander").click();
+  });
 
   // Back to top button
   $(window).scroll(function() {
