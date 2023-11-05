@@ -1611,6 +1611,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.btnDescarga{
+  background-color: red !important;
+  border-color: red;
+  padding: 5px;
+  margin: 10px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
